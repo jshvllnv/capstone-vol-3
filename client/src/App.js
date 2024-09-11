@@ -31,6 +31,7 @@ import AdminStudentAccounts from "./Components/Admin/Accounts/AdminStudentAccoun
 import SchoolDashboard from "./Components/School/Dashboard/SchoolDashboard";
 import SchoolApplication from "./Components/School/Application/SchoolApplication";
 import StudentEmailRegisterPage from "./Components/Shared/RegisterPage/StudentRegisterPage/StudentEmailRegisterPage";
+import AdminSettings from "./Components/Admin/Settings/AdminSettings/AdminSettings";
 
 function App() {
   return (
@@ -104,6 +105,7 @@ function App() {
             path="/admin/accounts/school"
             element={<AdminSchoolAccounts />}
           ></Route>
+          <Route path="/admin/settings" element={<AdminSettings />}></Route>
         </Routes>
       </BrowserRouter>
     </div>

@@ -20,7 +20,7 @@ const AdminStudentAccounts = () => {
               <input
                 type="text"
                 className="form-control p-2"
-                placeholder="Search by School Name"
+                placeholder="Search by Student's Name"
                 aria-label="Recipient's username"
                 aria-describedby="button-addon2"
               />
@@ -43,9 +43,8 @@ const AdminStudentAccounts = () => {
                     style={{ backgroundColor: "#182952" }}
                   >
                     <tr>
-                      <th scope="col">School Logo</th>
-                      <th scope="col">School Name</th>
-                      <th scope="col">Address</th>
+                      <th scope="col">Student Name</th>
+                      <th scope="col">Date Created</th>
                       <th scope="col">Status</th>
                       <th scope="col">Action</th>
                     </tr>
@@ -55,9 +54,8 @@ const AdminStudentAccounts = () => {
                       <th scope="row">School Here</th>
                       <td>Input</td>
                       <td>Input</td>
-                      <td>Input</td>
                       <td>
-                        <button className="btn btn-primary">View</button>
+                        <button className="btn btn-danger">Archive</button>
                       </td>
                     </tr>
                   </tbody>

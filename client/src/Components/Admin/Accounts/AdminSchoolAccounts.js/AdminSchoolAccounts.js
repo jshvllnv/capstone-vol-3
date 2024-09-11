@@ -43,21 +43,22 @@ const AdminSchoolAccounts = () => {
                     style={{ backgroundColor: "#182952" }}
                   >
                     <tr>
-                      <th scope="col">School Logo</th>
                       <th scope="col">School Name</th>
-                      <th scope="col">Address</th>
+                      <th scope="col">Date Created</th>
                       <th scope="col">Status</th>
-                      <th scope="col">Action</th>
+                      <th scope="col">Verify</th>
                     </tr>
                   </thead>
                   <tbody className="table-light text-center">
                     <tr>
-                      <th scope="row">School Here</th>
-                      <td>Input</td>
+                      <th scope="row">School Name Here</th>
                       <td>Input</td>
                       <td>Input</td>
                       <td>
-                        <button className="btn btn-primary">View</button>
+                        <button className="btn btn-secondary mx-sm-2">
+                          View
+                        </button>
+                        <button className="btn btn-success">Accept</button>
                       </td>
                     </tr>
                   </tbody>
