@@ -32,6 +32,7 @@ import SchoolDashboard from "./Components/School/Dashboard/SchoolDashboard";
 import SchoolApplication from "./Components/School/Application/SchoolApplication";
 import StudentEmailRegisterPage from "./Components/Shared/RegisterPage/StudentRegisterPage/StudentEmailRegisterPage";
 import AdminSettings from "./Components/Admin/Settings/AdminSettings/AdminSettings";
+import AdminActivityLogs from "./Components/Admin/ActivityLogs/AdminActivityLogs";
 
 function App() {
   return (
@@ -104,6 +105,10 @@ function App() {
           <Route
             path="/admin/accounts/school"
             element={<AdminSchoolAccounts />}
+          ></Route>
+          <Route
+            path="/admin/activity-logs"
+            element={<AdminActivityLogs />}
           ></Route>
           <Route path="/admin/settings" element={<AdminSettings />}></Route>
         </Routes>

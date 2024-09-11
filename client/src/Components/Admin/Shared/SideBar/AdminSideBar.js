@@ -79,7 +79,7 @@ const AdminSideBar = () => {
               </p>
               <li class="nav-item rounded-3">
                 <Link
-                  to={"/admin/view/examination"}
+                  to={"/admin/activity-logs"}
                   className="text-decoration-none"
                 >
                   <a class="nav-link text-light fw-normal p-0">
