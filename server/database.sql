@@ -24,7 +24,6 @@ INSERT INTO students(student_first_name, student_last_name, student_email_addres
 CREATE TABLE schools (
 school_id uuid PRIMARY KEY DEFAULT uuid_generate_v4(),
 school_name VARCHAR(255) NOT NULL,
-school_email_address VARCHAR(255),
-school_phone_number VARCHAR(255),
+school_email_address VARCHAR(255) NOT NULL,
 school_password VARCHAR(255) NOT NULL
 );

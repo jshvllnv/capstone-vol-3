@@ -1,0 +1,22 @@
+.school-side-bar {
+  background-color: #182952;
+}
+
+.school-image {
+  height: 75px;
+  width: auto;
+}
+
+small {
+  color: #8b8a8a;
+}
+
+.nav li:hover {
+  transform: translateY(255, 255, 255);
+}
+
+.full-height {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}

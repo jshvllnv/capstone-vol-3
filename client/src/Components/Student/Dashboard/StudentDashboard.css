@@ -1,0 +1,20 @@
+.custom-calendar {
+  background-color: #182952;
+  border-radius: 15px;
+  padding: 15px;
+  color: white;
+}
+
+.custom-calendar .react-calendar__tile--active {
+  background-color: #3467dd;
+  color: white;
+}
+
+.custom-calendar .react-calendar__tile {
+  border-radius: 10px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.custom-calendar .react-calendar__tile:hover {
+  transform: scale(1.05);
+}
